@@ -9,6 +9,8 @@ Description:-
 -We can analyze the log messages for the specified pattern,
 -It will display a report with the counts of each pattern. 
 -To stop the monitoring and analysis, press Ctrl+C. The trap command will catch the Ctrl+C signal and stop the script 
+-In addition to that sleep time has been added to check after every 10 sec
+-And a backup file is added at tmp/log_message.tmp to store logs
 
 
 
