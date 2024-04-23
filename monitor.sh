@@ -7,21 +7,16 @@ PATTERNS=("error" "HTTP" "fail")
 # Function named monitor_analyze_log to monitor and analyze the log file
 monitor_analyze_log() {
     echo "Monitoring and analyzing $Log_File for  new log"
-
     # One Temporary file is mentioned to store log_messages
     TEMP_FILE="/tmp/log_message.tmp"
-
     # looping statement named while loop is used for continously looping
     while true; do
         # Use tail to display new log entries and redirect to a temporary file
         tail -n 20 "$Log_File" > "$TEMP_FILE"
         # Now to analyze log messages
         analyze_log "$TEMP_FILE"
-
          # Sleep for 10 sec & checking again
         sleep 10
-
-
     done
 }
 
