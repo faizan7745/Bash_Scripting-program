@@ -8,7 +8,7 @@ Description:-
 -It will give new entries of log.
 -We can analyze the log messages for the specified pattern,
 -It will display a report with the counts of each pattern. 
--To stop the monitoring and analysis, press Ctrl+C. The trap command will catch the Ctrl+C signal and stop the script .
+-To stop the monitoring and analysis, press Ctrl+C. The trap command will catch the Ctrl+C signal and stop the script 
 
 
 
