@@ -1,6 +1,6 @@
 a = 1
 b = 2
-
+c = 3
 def addittion():
     add = a + b
     print(add)
